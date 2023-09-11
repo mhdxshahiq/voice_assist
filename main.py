@@ -7,7 +7,7 @@ import pyjokes
 import datetime
 
 engine = pyttsx3.init()
-engine.setProperty("rate", 110)
+engine.setProperty("rate", 100)
 
 def say(text):
     pyttsx3.speak(text)
@@ -28,7 +28,7 @@ def command():
             print("I didn't catch you")
 
 if __name__ == "__main__":
-    say("Hello human")
+    say("Hello human , HOW CAN I HELP YOU")
     while True:
         r = command()  # Capture user's command
         
@@ -58,7 +58,6 @@ if __name__ == "__main__":
             now = datetime.datetime.now()
             date_str = now.strftime("%A, %B %d, %Y")
             say(f"The date is {date_str}")
-            
             
         elif r == "thank you":
             print("You're welcome!")

@@ -1,2 +1,3 @@
 # voice_assist
-simple and basic code for voice assistant using python for beginner 
+simple and basic code for voice assistants using python for beginners
+
